@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>中文测试</title>
+      <link href="/2020/04/09/zhong-wen-ce-shi/"/>
+      <url>/2020/04/09/zhong-wen-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<p>PyTorch是基于Python的科学计算包，主要用途是：</p><ol><li>替代NumPy以使用GPU进行计算</li><li>最灵活、最快速的深度学习研究平台</li></ol><h2 id="开始学习PyTorch"><a href="#开始学习PyTorch" class="headerlink" title="开始学习PyTorch"></a>开始学习PyTorch</h2><h3 id="Tensor（张量）"><a href="#Tensor（张量）" class="headerlink" title="Tensor（张量）"></a>Tensor（张量）</h3><p>Tensor与NumPy的ndarray类似。此外，Tensor也可以在GPU上使用以加速计算。</p><pre class="line-numbers language-python"><code class="language-python"><span class="token keyword">from</span> __future__ <span class="token keyword">import</span> print_function<span class="token keyword">import</span> torch<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>测试银角大王</title>
       <link href="/2020/04/09/ce-shi-yin-jiao-da-wang/"/>
       <url>/2020/04/09/ce-shi-yin-jiao-da-wang/</url>
