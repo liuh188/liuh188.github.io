@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>测试银角大王</title>
+      <link href="/2020/04/09/%E6%B5%8B%E8%AF%95%E9%93%B6%E8%A7%92%E5%A4%A7%E7%8E%8B/"/>
+      <url>/2020/04/09/%E6%B5%8B%E8%AF%95%E9%93%B6%E8%A7%92%E5%A4%A7%E7%8E%8B/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hi</title>
+      <link href="/2020/04/09/Hi/"/>
+      <url>/2020/04/09/Hi/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hello hexo</title>
+      <link href="/2020/04/09/hello-hexo/"/>
+      <url>/2020/04/09/hello-hexo/</url>
+      
+        <content type="html"><![CDATA[<h1 id="为什么选择PyTorch？"><a href="#为什么选择PyTorch？" class="headerlink" title="为什么选择PyTorch？"></a>为什么选择PyTorch？</h1><blockquote><p>原文地址：<a href="https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py" target="_blank" rel="noopener">https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py</a></p></blockquote><p>PyTorch是基于Python的科学计算包，主要用途是：</p><ol><li>替代NumPy以使用GPU进行计算</li><li>最灵活、最快速的深度学习研究平台</li></ol><h2 id="开始学习PyTorch"><a href="#开始学习PyTorch" class="headerlink" title="开始学习PyTorch"></a>开始学习PyTorch</h2><h3 id="Tensor（张量）"><a href="#Tensor（张量）" class="headerlink" title="Tensor（张量）"></a>Tensor（张量）</h3><p>Tensor与NumPy的ndarray类似。此外，Tensor也可以在GPU上使用以加速计算。</p><pre class="line-numbers language-python"><code class="language-python"><span class="token keyword">from</span> __future__ <span class="token keyword">import</span> print_function<span class="token keyword">import</span> torch<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><blockquote><p>以下代码声明了一个未初始化的矩阵，在使用前并没有包含明确的已知值。创建未初始化的矩阵时，当时分配的内存中是什么值，就会显示什么值。</p></blockquote><p>创建一个未初始化的5x3矩阵：</p><pre class="line-numbers language-python"><code class="language-python">x <span class="token operator">=</span> torch<span class="token punctuation">.</span>empty<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token keyword">print</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>输出为：</p><pre><code>tensor([[3.6505e+33, 4.5775e-41, 1.0275e-01],        [3.0805e-41, 0.0000e+00, 1.4013e-45],        [0.0000e+00, 0.0000e+00, 0.0000e+00],        [0.0000e+00, 0.0000e+00, 0.0000e+00],        [0.0000e+00, 0.0000e+00, 0.0000e+00]])</code></pre><p>构造一个随机初始化的矩阵：</p><pre class="line-numbers language-python"><code class="language-python">x <span class="token operator">=</span> torch<span class="token punctuation">.</span>rand<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token keyword">print</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>输出为：</p><pre><code>tensor([[0.6377, 0.3948, 0.6849],        [0.0552, 0.6171, 0.4420],        [0.9732, 0.9736, 0.8754],        [0.6139, 0.0800, 0.3632],        [0.0292, 0.4580, 0.9478]])</code></pre><p>构造一个全为0且long型的矩阵：</p><pre class="line-numbers language-python"><code class="language-python">x <span class="token operator">=</span> torch<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> dtype<span class="token operator">=</span>torch<span class="token punctuation">.</span>long<span class="token punctuation">)</span><span class="token keyword">print</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>输出为：</p><pre><code>tensor([[0, 0, 0],        [0, 0, 0],        [0, 0, 0],        [0, 0, 0],        [0, 0, 0]])</code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2020/04/09/hello-world/"/>
+      <url>/2020/04/09/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
